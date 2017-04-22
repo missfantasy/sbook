@@ -87,7 +87,7 @@
 				</li>
 				<li class="line" title="图书借还">
 					<img src="image/borrow.png" alt="">
-					<a href="#kp" target="_self">图书借还</a>
+					<a href="#kpdf" target="_self">图书借还</a>
 				</li>
 				<li class="line" title="图书档案">
 					<img src="image/bookmanage.png" alt="">
