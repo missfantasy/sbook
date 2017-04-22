@@ -1,0 +1,138 @@
+*{
+			margin: 0;
+			padding: 0;
+		}
+		a{
+			text-decoration: none;
+			color: #0f88eb;
+		}
+		body{
+			font-family: "微软雅黑";
+		}
+		.header{
+			height: 100px;
+			background: #fff;
+			border-bottom: 3px solid #e4e4e4;
+		}
+		.header .left{
+			float: left;
+		}
+		.header .logo{
+			width: 300px;
+			height: 58px;
+			background: url("image/book.png")no-repeat top center ;
+		}
+		.header h3{
+			width: 300px;
+			line-height: 40px;
+			text-align: center;
+		}
+		.user{
+			width: 115px;
+			line-height: 28px;
+			float: left;
+			margin-left: 32px;
+			margin-top: 8px;
+			color: #0f88eb;
+		}
+		.line{
+			list-style: none;
+			float: right;
+			width: 102px;
+			font-size: 13px;
+			text-align: center;
+			line-height: 40px;
+			margin-top: 58px;
+		}
+		.line img{
+			width: 20px;
+			text-align: center;
+			position: relative;
+			top: 4px;
+		}
+		.content .articletop{
+			line-height: 30px;
+			background: skyblue;
+			text-indent: 2em;
+		}
+		.content .articlebottom{
+            width: 560px;
+            height: 373px;
+            margin: 0 auto;
+            margin-top: -30px;
+        }
+        .content .articlebottom .line{
+            width: 560px;
+            background: pink;
+            height: 0;
+        }
+        .content .articlebottom .line span{
+            float: left;
+            height: 28px;
+            width: 145px;
+            font-size: 14px;
+            line-height: 28px;
+            text-align: right;
+        }
+        .content .articlebottom .line .star{
+            color: red;
+            width: 0;
+        }
+        .content .articlebottom .line div{
+            float: right;
+            height: 28px;
+            width: 230px;
+            margin-right: 130px;
+        }
+        .content .articlebottom .line select{
+            width: 230px;
+            height: 28px;
+            position: relative;
+            top: -7px;
+            left: -39px;
+        }
+         .content .articlebottom input[type=text]{
+            width: 227px;
+            height: 24px;
+            position: relative;
+            top: -7px;
+            text-align: left;
+        }
+	    .content .articlebottom input[type=submit]{
+            width: 60px;
+            height: 25px;
+            font-size: 16px;
+            margin: 0 auto;
+            background: #0f88eb;
+            color: #fff;
+			border: none;
+			border-radius: 3px;
+			margin-left: 30px;
+        }
+		.content .articlebottom input[type=button]{
+            width: 60px;
+            height: 25px;
+            font-size: 16px;
+            background: #0f88eb;
+            margin-left: 65px;
+            color: #fff;
+			border: none;
+			border-radius: 3px;
+        }
+        .content .articlebottom input[type=date]{
+        	width: 227px;
+        	height: 25px;
+        }
+        .content .articlebottom input[type=radio]{
+            width: 60px;
+            height: 18px;
+            left: -60px;
+            position: relative;
+        }
+         .content .articlebottom input[type=email]{
+            width: 227px;
+            height: 24px;
+            position: relative;
+            top: -7px;
+            text-align: left;
+        }
