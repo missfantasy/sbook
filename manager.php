@@ -91,15 +91,15 @@
 				</li>
 				<li class="line" title="图书档案">
 					<img src="image/bookmanage.png" alt="">
-					<a href="#" target="_self">图书档案</a>
+					<a href="manager.php" target="_self">图书档案</a>
 				</li>
 				<li class="line" title="读者管理">
 					<img src="image/book1.png" alt="">
-					<a href="#" target="_self">读者管理</a>
+					<a href="reader.php" target="_self">读者管理</a>
 				</li>
 				<li class="line" title="首页">
 					<img src="image/homepage.png" alt="" >
-					<a href="#" target="_self">首页</a>
+					<a href="home.php" target="_self">首页</a>
 				</li>
 			</ul>
 		</div>
