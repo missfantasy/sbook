@@ -62,7 +62,7 @@
 					<td style="padding:5px;"><?php echo $info['name'] ?></td>
 					<td style="padding:5px;"><?php echo $info['tel'] ?></td>
 					<td style="padding:5px;"><a href="#"><?php echo $info['book_account'] ?></a></td>
-					<td style="padding:5px;"><a href="reader_modify.php">修改</a></td>
+					<td style="padding:5px;"><a href="reader_modify.php?id=<?php echo $info['id'] ?>">修改</a></td>
 					<td style="padding:5px;"><a href="#">删除</a></td>
 				</tr>
 				<?php 
