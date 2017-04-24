@@ -22,12 +22,7 @@
 	</style>
 </head>
 <body>
-<<<<<<< HEAD
 	<?php include('navigation.php'); ?>
-=======
-	<?php include("navigation.php");?>
-
->>>>>>> origin/master
 	<div class="content">
 		<div class="user">
 			<a href="book_add.php">添加图书</a>
