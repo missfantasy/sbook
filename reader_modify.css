@@ -1,54 +1,14 @@
-*{
-			margin: 0;
-			padding: 0;
-		}
-		a{
-			text-decoration: none;
-			color: #0f88eb;
-		}
-		body{
-			font-family: "微软雅黑";
-		}
-		.header{
-			height: 100px;
-			background: #fff;
-			border-bottom: 3px solid #e4e4e4;
-		}
-		.header .left{
-			float: left;
-		}
-		.header .logo{
-			width: 300px;
-			height: 58px;
-			background: url("image/book.png")no-repeat top center ;
-		}
-		.header h3{
-			width: 300px;
-			line-height: 40px;
-			text-align: center;
-		}
-		.user{
+	.content{
+            background-color: #fff;
+            height: 600px;
+        }
+        .user{
 			width: 115px;
 			line-height: 28px;
 			float: left;
 			margin-left: 32px;
 			margin-top: 8px;
 			color: #0f88eb;
-		}
-		.line{
-			list-style: none;
-			float: right;
-			width: 102px;
-			font-size: 13px;
-			text-align: center;
-			line-height: 40px;
-			margin-top: 58px;
-		}
-		.line img{
-			width: 20px;
-			text-align: center;
-			position: relative;
-			top: 4px;
 		}
 		.content .articletop{
 			line-height: 30px;

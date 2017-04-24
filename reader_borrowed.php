@@ -3,43 +3,31 @@
 <head>
 	<meta charset="UTF-8">
 	<title>享书伴侣后台管理系统</title>
-	<link rel="stylesheet" href="reader.css">
+	<style>
+		.user{
+			width: 85px;
+			line-height: 28px;
+			float: right;
+			margin-top: 5px;
+		}
+		.content{
+			height: 500px;
+			background: #fff;
+			margin: 0 auto;
+		}
+		.content .top{
+			line-height: 30px;
+			text-indent: 2em;
+			color: #0f88eb;
+		}
+		.content table{
+			margin: 0 auto;
+			margin-top: 3px;
+		}
+	</style>		
 </head>
 <body>
-	<div class="header">
-		<div class="left">
-			<h1 class="logo"></h1>
-			<h3 class="subtitle">享书伴侣后台管理系统</h3>
-		</div>
-		<div class="nav">
-			<ul>
-				<li class="line" title="注销">
-					<img src="image/exit.png" alt="" width="20px">
-					<a href="#" target="_self">注销</a>
-				</li>
-				<li class="line" title="系统设置">
-					<img src="image/setting.png" alt="" width="20px">
-					<a href="#" target="_self">系统设置</a>
-				</li>
-				<li class="line" title="图书借还">
-					<img src="image/borrow.png" alt="">
-					<a href="#" target="_self">图书借还</a>
-				</li>
-				<li class="line" title="图书档案">
-					<img src="image/bookmanage.png" alt="">
-					<a href="manager.php" target="_self">图书档案</a>
-				</li>
-				<li class="line" title="读者管理">
-					<img src="image/book1.png" alt="">
-					<a href="reader.php" target="_self">读者管理</a>
-				</li>
-				<li class="line" title="首页">
-					<img src="image/homepage.png" alt="" >
-					<a href="home.php" target="_self">首页</a>
-				</li>
-			</ul>
-		</div>
-	</div>
+	<?php include("navigation.php");?>
 	<div class="content">
 		<div class="top">
 			<p>读者管理——读者档案管理——已借图书</p>
