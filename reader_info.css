@@ -1,0 +1,74 @@
+		
+        .user{
+			width: 115px;
+			line-height: 28px;
+			float: left;
+			margin-left: 32px;
+			margin-top: 8px;
+			color: #0f88eb;
+		}
+        .content{
+            background-color: #fff;
+        }
+        
+		.content .articletop{
+			line-height: 30px;
+			background: skyblue;
+			text-indent: 2em;
+		}
+        .content .articlebottom .line span{
+            float: left;
+            height: 28px;
+            width: 168px;
+            font-size: 14px;
+            line-height: 28px;
+            text-align: right;
+            display: inline-block;
+        }
+        .content .articlebottom .line div{
+            float: right;
+            height: 28px;
+            width: 230px;
+            margin-right: 130px;
+        }
+         .content .articlebottom input{
+            border: none;
+         }
+         .content .articlebottom input[type=text]{
+            width: 327px;
+            height: 24px;
+            position: relative;
+            top: -5px;
+            text-align: left;
+            font-size: 14px;
+        }
+		.content .articlebottom{
+            width: 1200px;
+            margin: 0 auto;
+            margin-top: -30px;
+            margin-left: 120px;
+        }
+         .content .articlebottom .line{
+            width: 560px;
+            height: 0;
+            float: left;
+        }
+        .line input[type=text]{
+            width: 227px;
+            height: 24px;
+            position: relative;
+            margin-left: 20px;
+            text-align: left;
+        }
+        .content .articlebottom input[type=button]{
+            width: 85px;
+            line-height: 33px;
+            font-size: 16px;
+            background: #0f88eb;
+            margin-left: -200px;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+        }
+        
+       

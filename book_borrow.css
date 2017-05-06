@@ -1,0 +1,167 @@
+		.content{
+            background-color: #fff;
+            height: 600px;
+        }
+        .user{
+			width: 115px;
+			line-height: 28px;
+			float: left;
+			margin-left: 32px;
+			margin-top: 8px;
+			color: #0f88eb;
+		}
+		.content .articletop{
+			line-height: 30px;
+			background: skyblue;
+			text-indent: 2em;
+		}
+		.content .articlebottom{
+            height: 373px;
+            margin: 0 auto;
+            margin-top: -30px;
+            width: 1224px;
+        }
+        .content .articlebottom .line{
+            width: 560px;
+            background: skyblue;
+            height: 0;
+            float: left;
+        }
+        .content .articlebottom .line span{
+            float: left;
+            height: 28px;
+            width: 180px;
+            font-size: 14px;
+            line-height: 28px;
+            text-align: right;
+        }
+        .content .articlebottom .line .star{
+            color: red;
+            width: 0;
+        }
+        .content .articlebottom .line div{
+            float: right;
+            height: 28px;
+            width: 230px;
+            margin-right: 130px;
+            display: inline-block;
+        }
+        .content .articlebottom .line select{
+            width: 232px;
+            height: 28px;
+            position: relative;
+            top: -7px;
+            left: -54px;
+        }
+         .content .articlebottom input[type=text]{
+            width: 227px;
+            height: 24px;
+            position: relative;
+            top: -7px;
+            text-align: left;
+        }
+	    .content input[type=submit]{
+            width: 60px;
+            height: 25px;
+            font-size: 16px;
+            margin: 0 auto;
+            background: #0f88eb;
+            color: #fff;
+			border: none;
+			border-radius: 3px;
+			margin-left: 30px;
+        }
+		.content .articlebottom input[type=button]{
+            width: 60px;
+            height: 25px;
+            font-size: 16px;
+            background: #0f88eb;
+            margin-left: 65px;
+            color: #fff;
+			border: none;
+			border-radius: 3px;
+        }
+        .content .articlebottom input[type=date]{
+        	width: 227px;
+        	height: 25px;
+        }
+        .content .articlebottom input[type=radio]{
+            width: 60px;
+            height: 18px;
+            left: -60px;
+            position: relative;
+        }
+         .content .articlebottom input[type=email]{
+            width: 227px;
+            height: 24px;
+            position: relative;
+            top: -7px;
+            text-align: left;
+        }
+        .reader{
+            border: 1px solid #f7f7f7;
+            box-shadow: 2px 0 5px rgba(0,0,0,.3);
+            height: 315px;
+        }
+        .reader p{
+            padding: 20px 125px 10px;
+            border-bottom: 1px solid #f7f7f7;
+            box-shadow: 2px 0 1px rgba(0,0,0,.3);
+        }
+        .content table{
+            margin: 0 auto;
+            margin-top: 3px;
+        }
+        .means input[type=submit]{
+            cursor: pointer;
+            width: 75px;
+            height: 25px;
+            font-size: 14px;
+            margin: 0 auto;
+            background: #0f88eb;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            margin-left: 30px;
+        }
+        .means span{
+            width: 130px;
+            display: inline-block;
+        }
+        .means{
+            margin: 20px 15px 10px;
+        }
+        .means input[type=text]{
+            width: 227px;
+            height: 24px;
+            position: relative;
+            margin-left: 20px;
+            text-align: left;
+        }
+        .means input[type=radio]{
+            width: 45px;
+            height: 18px;
+            top: 3px;
+            position: relative;
+        }
+        .r_confirm input[type=submit]{
+            cursor: pointer;
+            width: 75px;
+            height: 25px;
+            font-size: 14px;
+            margin: 0 auto;
+            background: #0f88eb;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            margin-left: 30px;
+        }
+         .r_confirm input[type=text]{
+            width: 227px;
+            height: 24px;
+            position: relative;
+            margin-left: 20px;
+            text-align: left;
+            text-indent: 1em;
+            font-size: 14px;
+        }
