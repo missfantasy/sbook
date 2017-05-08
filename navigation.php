@@ -13,7 +13,9 @@
 			text-decoration: none;
 			color: #0f88eb;
 		}
-		
+		ul{
+			list-style: none;
+		}
 		.header{
 			height: 100px;
 			background: #fff;
@@ -34,15 +36,22 @@
 		}
 		.header a{
 			color: #0f88eb;
+			width: 55px;
+			display: inline-block;
+		}
+		.line .sp{
+			color: #0f88eb;
+			width: 55px;
 		}
 		.line{
 			list-style: none;
 			float: right;
-			width: 102px;
+			margin-left: 30px;
 			font-size: 13px;
 			text-align: center;
 			line-height: 40px;
 			margin-top: 58px;
+			width: 80px;
 		}
 		.line img{
 			width: 20px;
@@ -50,7 +59,43 @@
 			position: relative;
 			top: 4px;
 		}
+		a:hover{
+			background: #0f88eb;
+			color: #fff;
+			width: 55px;
+			line-height: 25px;
+			display: inline-block;
+		}
+		.in a:hover{
+			background: #0f88eb;
+			color: #fff;
+			width: 60px;
+			line-height: 30px;
+			display: inline-block;
+		}
+		.in{
+			display: none;
+			width: 102px;
+			line-height: 40px;
+			background: #fff;
+			z-index: 2;
+			position: absolute;
+		}
+		.in a{
+			color: #0f88eb;
+		}
+		.in li{
+			border-bottom: 1px solid #fff;
+		}
+		.line:hover .in{
+			display: block;
+		}
 	</style>
+	<script>
+		window.onload(){
+			var exit=document.getElementById
+		}
+	</script>
 </head>
 <body>
 	<div class="header">
@@ -62,15 +107,23 @@
 			<ul>
 				<li class="line" title="注销">
 					<img src="image/exit.png" alt="" width="20px">
-					<a href="#" target="_self">注销</a>
+					<a href="login.php" target="_self" id="exit">注销</a>
 				</li>
 				<li class="line" title="系统设置">
 					<img src="image/setting.png" alt="" width="20px">
-					<a href="#" target="_self">系统设置</a>
+					<span class="sp">系统查询</span>
+					<ul class="in">
+						<li><a href="system.php" target="_self">图书查询</a></li>
+						<li><a href="query.php"  target="_self">读者查询</a></li>
+					</ul>
 				</li>
 				<li class="line" title="图书借还">
 					<img src="image/borrow.png" alt="">
-					<a href="#kpdf" target="_self">图书借还</a>
+					<span class="sp">图书借还</span>
+					<ul class="in">
+						<li><a href="book_borrow.php" target="_self">图书借阅</a></li>
+						<li><a href="book_renew.php"  target="_self">图书续借</a></li>
+					</ul>
 				</li>
 				<li class="line" title="图书档案">
 					<img src="image/bookmanage.png" alt="">

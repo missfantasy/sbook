@@ -10,7 +10,7 @@
 	<?php include("navigation.php");?>
 	<div class="content">
 		<div class="articletop">
-			<p>图书借还——图书借阅</p>
+			<p>图书借还——图书续借</p>
 		</div>
 		<div class="reader">
 			<p class="r_confirm">
@@ -62,15 +62,7 @@
 	        </form>        
 	    </div>
 	    <div class="book_info">
-	    	<div class="means">
-	    		<span>添加图书:</span>
-	    		<input type="radio" name="mean" class="mean">ISBN
-	    		<input type="radio" name="mean" class="mean">图书名称
-	    		<input type="text">
-	    		<input type="submit" value="确定">
-	    		<input type="submit" value="完成借阅">
-	    	</div>
-	    	<table  width="98%"  border="1" cellpadding="0" cellspacing="0" bordercolor="#eee" bordercolordark="#D2E3E6" bordercolorlight="#FFFFFF">
+	    	<table  width="98%"  border="1" cellpadding="0" cellspacing="0" bordercolor="#eee" bordercolordark="#D2E3E6" bordercolorlight="#FFFFFF" style="margin-top: 10px;">
 				<tr align="center" bgcolor="skyblue">
 					<td width="6%" style="padding:3px;">ID</td>
 					<td width="13%" style="padding:3px;">ISBN</td>
@@ -79,6 +71,7 @@
 					<td width="14%" style="padding:3px;">出版社</td>
 					<td width="12%" style="padding:3px;">书架</td>
 					<td width="8%" style="padding:3px;">定价（元）</td>
+					<td width="8%" style="padding:3px;">续借成功</td>
 				</tr>
 				<tr>
 					<td style="padding:5px;" align="center"></td>
@@ -86,6 +79,7 @@
 					<td style="padding:5px;">
 						<a href="#"></a>
 					</td>
+					<td style="padding:5px;"></td>
 					<td style="padding:5px;"></td>
 					<td style="padding:5px;"></td>
 					<td style="padding:5px;"></td>

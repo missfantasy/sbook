@@ -81,22 +81,17 @@
 			border: none;
 			border-radius: 3px;
         }
-        .content .articlebottom input[type=date]{
-        	width: 227px;
-        	height: 25px;
+        .articlebottom input{
+            border: none;
+            font-size: 14px;
         }
-        .content .articlebottom input[type=radio]{
-            width: 60px;
-            height: 18px;
-            left: -60px;
-            position: relative;
-        }
-         .content .articlebottom input[type=email]{
-            width: 227px;
+         .content .articlebottom input[type=text]{
+            width: 339px;
             height: 24px;
             position: relative;
-            top: -7px;
+            top: -5px;
             text-align: left;
+            font-size: 14px;
         }
         .reader{
             border: 1px solid #f7f7f7;
@@ -115,7 +110,7 @@
         .means input[type=submit]{
             cursor: pointer;
             width: 75px;
-            height: 25px;
+            line-height: 25px;
             font-size: 14px;
             margin: 0 auto;
             background: #0f88eb;
@@ -147,7 +142,7 @@
         .r_confirm input[type=submit]{
             cursor: pointer;
             width: 75px;
-            height: 25px;
+            line-height: 25px;
             font-size: 14px;
             margin: 0 auto;
             background: #0f88eb;

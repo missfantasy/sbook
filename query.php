@@ -9,12 +9,9 @@
 <body>
 	<?php include("navigation.php");?>
 	<div class="content">
-		<div class="articletop">
-			<p>图书借还——图书借阅</p>
-		</div>
 		<div class="reader">
 			<p class="r_confirm">
-				读者验证:
+				查询读者:
 				<input type="text" aria-label="请输入读者条形码" placeholder="请输入读者条形码">
 	    		<input type="submit" value="确定">
 			</p>
@@ -63,12 +60,7 @@
 	    </div>
 	    <div class="book_info">
 	    	<div class="means">
-	    		<span>添加图书:</span>
-	    		<input type="radio" name="mean" class="mean">ISBN
-	    		<input type="radio" name="mean" class="mean">图书名称
-	    		<input type="text">
-	    		<input type="submit" value="确定">
-	    		<input type="submit" value="完成借阅">
+	    		<span>已借图书:</span>
 	    	</div>
 	    	<table  width="98%"  border="1" cellpadding="0" cellspacing="0" bordercolor="#eee" bordercolordark="#D2E3E6" bordercolorlight="#FFFFFF">
 				<tr align="center" bgcolor="skyblue">
@@ -76,9 +68,9 @@
 					<td width="13%" style="padding:3px;">ISBN</td>
 					<td width="23%" style="padding:3px;">图书名称</td>
 					<td width="15%" style="padding:3px;">图书类型</td>
-					<td width="14%" style="padding:3px;">出版社</td>
-					<td width="12%" style="padding:3px;">书架</td>
-					<td width="8%" style="padding:3px;">定价（元）</td>
+					<td width="14%" style="padding:3px;">借阅时间</td>
+					<td width="12%" style="padding:3px;">归还时间</td>
+					<td width="8%" style="padding:3px;">是否归还</td>
 				</tr>
 				<tr>
 					<td style="padding:5px;" align="center"></td>
